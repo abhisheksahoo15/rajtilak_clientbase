@@ -5,10 +5,44 @@ let selectedState = 'chhattisgarh'; // Hardcoded for this strategic engine focus
 let mockWardsList = [];
 
 document.addEventListener('DOMContentLoaded', () => {
+  setupSecurityGate();
   initDropdowns();
   setupFormHandler();
   setupTabHandler();
 });
+
+// Setup Universal Login Security Gate
+function setupSecurityGate() {
+  const authenticated = sessionStorage.getItem('rajtilak_authenticated');
+  const loginOverlay = document.getElementById('loginOverlay');
+  
+  if (authenticated === 'true') {
+    loginOverlay.classList.add('hidden');
+  } else {
+    loginOverlay.classList.remove('hidden');
+  }
+
+  const loginForm = document.getElementById('loginForm');
+  loginForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const user = document.getElementById('loginUser').value.trim();
+    const pass = document.getElementById('loginPass').value.trim();
+    const errorMsg = document.getElementById('loginError');
+
+    if (user === 'rajtilak' && pass === 'analytics') {
+      sessionStorage.setItem('rajtilak_authenticated', 'true');
+      loginOverlay.style.opacity = '0';
+      setTimeout(() => {
+        loginOverlay.classList.add('hidden');
+      }, 500);
+    } else {
+      errorMsg.classList.remove('hidden');
+      setTimeout(() => {
+        errorMsg.classList.add('hidden');
+      }, 4000);
+    }
+  });
+}
 
 // Setup district -> city dynamic cascading
 async function initDropdowns() {
