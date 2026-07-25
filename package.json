@@ -1,0 +1,19 @@
+{
+  "name": "rajtilak-analytics-client",
+  "version": "1.0.0",
+  "description": "Rajtilak Analytics - Regional Intelligence Platform (Internal)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "author": "GetSetAI Innovations",
+  "license": "PROPRIETARY"
+}

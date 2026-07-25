@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajtilak Analytics | Chhattisgarh Political Intelligence</title>
+  <meta name="description" content="Internal political strategy management platform for Chhattisgarh ward-level intelligence and analytics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="logo-mark">
+          <svg viewBox="0 0 60 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M30 2 L8 28 L30 68 L52 28 Z" fill="url(#logoGrad)" opacity="0.15"/>
+            <path d="M30 2 L8 28" stroke="#1B3A7A" stroke-width="5" stroke-linecap="round"/>
+            <path d="M30 2 L52 28" stroke="#1B3A7A" stroke-width="5" stroke-linecap="round"/>
+            <path d="M8 28 L30 68" stroke="#1B3A7A" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M52 28 L30 68" stroke="#1B3A7A" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M30 5 L30 68" stroke="url(#logoGrad)" stroke-width="6" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="30" y1="5" x2="30" y2="68" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FFB347"/>
+                <stop offset="100%" stop-color="#FF6B2B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">RAJTILAK</span>
+          <span class="brand-sub">ANALYTICS <em>by GetSetAI Innovations</em></span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <span class="nav-badge">
+          <span class="pulse-dot"></span>
+          Internal Portal
+        </span>
+        <div class="agent-avatar" title="Agent Active">AG</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / SEARCH SECTION -->
+  <section class="hero-section" id="heroSection">
+    <!-- Animated radar background -->
+    <div class="radar-bg" aria-hidden="true">
+      <div class="radar-wrap">
+        <div class="radar-ring r1"></div>
+        <div class="radar-ring r2"></div>
+        <div class="radar-ring r3"></div>
+        <div class="radar-ring r4"></div>
+        <div class="radar-cross h"></div>
+        <div class="radar-cross v"></div>
+        <div class="radar-sweep"></div>
+        <span class="blip blip-1"></span>
+        <span class="blip blip-2"></span>
+        <span class="blip blip-3"></span>
+        <span class="blip blip-4"></span>
+        <span class="blip blip-5"></span>
+        <div class="radar-label">SCANNING CHHATTISGARH</div>
+      </div>
+      <div class="hex-grid" aria-hidden="true">
+        <span class="hex"></span><span class="hex"></span><span class="hex"></span>
+        <span class="hex"></span><span class="hex"></span><span class="hex"></span>
+        <span class="hex"></span><span class="hex"></span><span class="hex"></span>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Chhattisgarh Political Intelligence Engine
+      </div>
+      <h1 class="hero-title">Ward <span class="title-accent">Intelligence</span><br>Command Center</h1>
+      <p class="hero-desc">Enter any ward number in Chhattisgarh to instantly retrieve deep political analysis — demographics, voter data, development status, councillor profile, and strategic insights.</p>
+
+      <!-- WARD SEARCH CARD -->
+      <div class="search-card" id="searchCard">
+        <div class="search-card-header">
+          <span class="search-icon">⚡</span>
+          <span>Ward Intelligence Search</span>
+        </div>
+        <form class="search-form" id="wardSearchForm" autocomplete="off">
+          <div class="form-row-2">
+            <div class="field-wrap">
+              <label for="districtSelect">District</label>
+              <select id="districtSelect" name="district" required>
+                <option value="">— Select District —</option>
+                <option value="durg">Durg</option>
+                <option value="raipur">Raipur</option>
+                <option value="bilaspur">Bilaspur</option>
+                <option value="rajnandgaon">Rajnandgaon</option>
+                <option value="korba">Korba</option>
+                <option value="janjgir">Janjgir-Champa</option>
+                <option value="raigarh">Raigarh</option>
+                <option value="surguja">Surguja</option>
+                <option value="bastar">Bastar</option>
+                <option value="dhamtari">Dhamtari</option>
+                <option value="mahasamund">Mahasamund</option>
+              </select>
+            </div>
+            <div class="field-wrap">
+              <label for="citySelect">City / Municipality</label>
+              <select id="citySelect" name="city" required>
+                <option value="">— Select City —</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="field-wrap">
+              <label for="wardInput">Ward Number</label>
+              <input type="text" id="wardInput" name="ward" placeholder="e.g. 12, 45, Ward No. 7" required>
+            </div>
+            <div class="field-wrap">
+              <label for="keywordSelect">Analysis Keyword</label>
+              <select id="keywordSelect" name="keyword">
+                <option value="full">Full Intelligence Report</option>
+                <option value="political">Political Strategy</option>
+                <option value="voter">Voter Analysis</option>
+                <option value="demographic">Demographics</option>
+                <option value="infrastructure">Infrastructure</option>
+                <option value="development">Development Projects</option>
+                <option value="complaint">Public Complaints</option>
+                <option value="caste">Caste Composition</option>
+                <option value="economic">Economic Profile</option>
+                <option value="risk">Risk Assessment</option>
+              </select>
+            </div>
+          </div>
+          <button class="analyze-btn" type="submit" id="analyzeBtn">
+            <span class="btn-radar-icon" aria-hidden="true"></span>
+            Analyze Ward Intelligence
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCANNER ANIMATION (shown during analysis) -->
+  <section class="scanner-section hidden" id="scannerSection" aria-live="polite" aria-label="Scanning in progress">
+    <div class="scanner-inner">
+      <div class="scan-radar-large" aria-hidden="true">
+        <div class="scan-ring sr1"></div>
+        <div class="scan-ring sr2"></div>
+        <div class="scan-ring sr3"></div>
+        <div class="scan-sweep-large"></div>
+        <div class="scan-crosshair h"></div>
+        <div class="scan-crosshair v"></div>
+        <div class="data-dot dd1"></div>
+        <div class="data-dot dd2"></div>
+        <div class="data-dot dd3"></div>
+        <div class="data-dot dd4"></div>
+        <div class="data-dot dd5"></div>
+        <div class="scan-center-label" id="scanCenterLabel">WARD<br><span id="scanWardNum">--</span></div>
+      </div>
+      <div class="scan-steps" id="scanSteps">
+        <div class="scan-step" id="step1"><span class="step-icon">◌</span><span>Accessing ward boundary data...</span></div>
+        <div class="scan-step" id="step2"><span class="step-icon">◌</span><span>Scraping voter roll & demographics...</span></div>
+        <div class="scan-step" id="step3"><span class="step-icon">◌</span><span>Pulling political history & results...</span></div>
+        <div class="scan-step" id="step4"><span class="step-icon">◌</span><span>Analyzing development projects...</span></div>
+        <div class="scan-step" id="step5"><span class="step-icon">◌</span><span>Calculating strategic intelligence score...</span></div>
+        <div class="scan-step" id="step6"><span class="step-icon">◌</span><span>Generating full intelligence report...</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS DASHBOARD -->
+  <section class="results-section hidden" id="resultsSection">
+    <div class="results-container">
+
+      <!-- Header Bar -->
+      <div class="results-header">
+        <div class="rh-left">
+          <div class="rh-badge">INTELLIGENCE REPORT</div>
+          <h2 class="rh-title" id="reportTitle">Ward Analysis</h2>
+          <p class="rh-path" id="reportPath"></p>
+        </div>
+        <div class="rh-right">
+          <div class="score-ring" id="scoreRing">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <circle cx="40" cy="40" r="34" stroke="#1B2A4A" stroke-width="6" fill="none"/>
+              <circle cx="40" cy="40" r="34" stroke="url(#scoreGrad)" stroke-width="6" fill="none"
+                stroke-dasharray="213.6" stroke-dashoffset="213.6" stroke-linecap="round"
+                transform="rotate(-90 40 40)" id="scoreCircle" class="score-circle"/>
+              <defs>
+                <linearGradient id="scoreGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#FFB347"/>
+                  <stop offset="100%" stop-color="#FF6B2B"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="score-value" id="scoreValue">--</div>
+            <div class="score-label">Strategy<br>Score</div>
+          </div>
+          <button class="new-search-btn" id="newSearchBtn" onclick="resetToSearch()">← New Search</button>
+        </div>
+      </div>
+
+      <!-- KEYWORD TABS -->
+      <div class="keyword-tabs" id="keywordTabs" role="tablist" aria-label="Analysis categories">
+        <button class="ktab active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+        <button class="ktab" data-tab="political" role="tab">Political</button>
+        <button class="ktab" data-tab="voter" role="tab">Voters</button>
+        <button class="ktab" data-tab="demographic" role="tab">Demographics</button>
+        <button class="ktab" data-tab="caste" role="tab">Caste Data</button>
+        <button class="ktab" data-tab="infrastructure" role="tab">Infrastructure</button>
+        <button class="ktab" data-tab="development" role="tab">Development</button>
+        <button class="ktab" data-tab="complaint" role="tab">Complaints</button>
+        <button class="ktab" data-tab="economic" role="tab">Economic</button>
+        <button class="ktab" data-tab="risk" role="tab">Risk</button>
+      </div>
+
+      <!-- TAB PANELS -->
+      <div class="tab-panels" id="tabPanels">
+
+        <!-- OVERVIEW TAB -->
+        <div class="tab-panel active" id="tab-overview" role="tabpanel">
+          <div class="metrics-grid">
+            <div class="metric-card mc-orange">
+              <div class="mc-icon">👥</div>
+              <div class="mc-value" id="ov-population">--</div>
+              <div class="mc-label">Total Population</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-icon">🗳️</div>
+              <div class="mc-value" id="ov-voters">--</div>
+              <div class="mc-label">Registered Voters</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-icon">🏗️</div>
+              <div class="mc-value" id="ov-projects">--</div>
+              <div class="mc-label">Active Projects</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-icon">📊</div>
+              <div class="mc-value" id="ov-literacy">--</div>
+              <div class="mc-label">Literacy Rate</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-icon">🏠</div>
+              <div class="mc-value" id="ov-households">--</div>
+              <div class="mc-label">Households</div>
+            </div>
+            <div class="metric-card mc-blue">
+              <div class="mc-icon">⭐</div>
+              <div class="mc-value" id="ov-growthScore">--</div>
+              <div class="mc-label">Growth Score</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-card" id="ov-councillorCard">
+              <div class="ic-header">Current Councillor</div>
+              <div class="ic-body" id="ov-councillor">Loading...</div>
+            </div>
+            <div class="info-card" id="ov-partyCard">
+              <div class="ic-header">Ruling Party</div>
+              <div class="ic-body" id="ov-party">Loading...</div>
+            </div>
+            <div class="info-card">
+              <div class="ic-header">Last Election Result</div>
+              <div class="ic-body" id="ov-lastResult">Loading...</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POLITICAL TAB -->
+        <div class="tab-panel hidden" id="tab-political" role="tabpanel">
+          <div class="section-title">Political Profile</div>
+          <div class="political-grid">
+            <div class="pol-card win-card">
+              <div class="pol-label">Current Councillor</div>
+              <div class="pol-name" id="pol-name">--</div>
+              <div class="pol-party" id="pol-party">--</div>
+              <div class="pol-votes" id="pol-votes">-- votes</div>
+            </div>
+            <div class="pol-card">
+              <div class="pol-label">Main Opposition</div>
+              <div class="pol-name" id="pol-opp-name">--</div>
+              <div class="pol-party" id="pol-opp-party">--</div>
+              <div class="pol-votes" id="pol-opp-votes">-- votes</div>
+            </div>
+            <div class="pol-card">
+              <div class="pol-label">Victory Margin</div>
+              <div class="pol-margin" id="pol-margin">--</div>
+              <div class="pol-trend" id="pol-trend">Trend: --</div>
+            </div>
+          </div>
+          <div class="vote-share-bar" id="voteShareBar"></div>
+          <div class="section-title mt-lg">Election History</div>
+          <div class="history-table-wrap">
+            <table class="history-table" id="electionHistoryTable">
+              <thead><tr><th>Year</th><th>Winner</th><th>Party</th><th>Votes</th><th>Margin</th></tr></thead>
+              <tbody id="electionHistoryBody"></tbody>
+            </table>
+          </div>
+          <div class="section-title mt-lg">Strategic Intelligence</div>
+          <div class="strategy-tags" id="strategyTags"></div>
+        </div>
+
+        <!-- VOTER TAB -->
+        <div class="tab-panel hidden" id="tab-voter" role="tabpanel">
+          <div class="section-title">Voter Analysis</div>
+          <div class="metrics-grid">
+            <div class="metric-card mc-orange">
+              <div class="mc-value" id="vt-total">--</div>
+              <div class="mc-label">Total Voters</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-value" id="vt-male">--</div>
+              <div class="mc-label">Male Voters</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-value" id="vt-female">--</div>
+              <div class="mc-label">Female Voters</div>
+            </div>
+            <div class="metric-card">
+              <div class="mc-value" id="vt-turnout">--</div>
+              <div class="mc-label">Last Turnout</div>
+            </div>
+          </div>
+          <div class="chart-section">
+            <div class="chart-card">
+              <div class="chart-title">Gender Split</div>
+              <div class="donut-chart" id="genderDonut" aria-label="Gender split chart"></div>
+              <div class="chart-legend" id="genderLegend"></div>
+            </div>
+            <div class="chart-card">
+              <div class="chart-title">Age Group Distribution</div>
+              <div class="bar-chart-v" id="ageBarChart"></div>
+            </div>
+          </div>
+          <div class="section-title mt-lg">First-Time Voters (18-19 yrs)</div>
+          <div class="highlight-stat" id="vt-firstTime"></div>
+          <div class="section-title mt-lg">Voter Sentiment Index</div>
+          <div class="sentiment-bar-wrap" id="sentimentBars"></div>
+        </div>
+
+        <!-- DEMOGRAPHICS TAB -->
+        <div class="tab-panel hidden" id="tab-demographic" role="tabpanel">
+          <div class="section-title">Demographic Profile</div>
+          <div class="metrics-grid">
+            <div class="metric-card mc-orange"><div class="mc-value" id="dm-pop">--</div><div class="mc-label">Population</div></div>
+            <div class="metric-card"><div class="mc-value" id="dm-density">--</div><div class="mc-label">Density / sq.km</div></div>
+            <div class="metric-card"><div class="mc-value" id="dm-literacy">--</div><div class="mc-label">Literacy</div></div>
+            <div class="metric-card"><div class="mc-value" id="dm-sexRatio">--</div><div class="mc-label">Sex Ratio</div></div>
+          </div>
+          <div class="chart-section">
+            <div class="chart-card">
+              <div class="chart-title">Urban vs Rural Split</div>
+              <div class="split-bars" id="urbanRuralBars"></div>
+            </div>
+            <div class="chart-card">
+              <div class="chart-title">Religion Composition</div>
+              <div class="pill-bars" id="religionBars"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CASTE TAB -->
+        <div class="tab-panel hidden" id="tab-caste" role="tabpanel">
+          <div class="section-title">Caste & Community Data</div>
+          <div class="caste-disclaimer">⚠️ This data is for internal strategic analysis only — internal use, confidential.</div>
+          <div class="caste-bars-wrap" id="casteBars"></div>
+          <div class="section-title mt-lg">Dominant Caste Groups (Ward)</div>
+          <div class="dominant-castes" id="dominantCastes"></div>
+        </div>
+
+        <!-- INFRASTRUCTURE TAB -->
+        <div class="tab-panel hidden" id="tab-infrastructure" role="tabpanel">
+          <div class="section-title">Infrastructure Score</div>
+          <div class="infra-score-big" id="infraScoreBig">--<span>/100</span></div>
+          <div class="infra-grid" id="infraGrid"></div>
+          <div class="section-title mt-lg">Key Facilities</div>
+          <div class="facility-list" id="facilityList"></div>
+        </div>
+
+        <!-- DEVELOPMENT TAB -->
+        <div class="tab-panel hidden" id="tab-development" role="tabpanel">
+          <div class="section-title">Development Projects</div>
+          <div class="dev-status-row">
+            <div class="dev-stat"><div class="ds-val" id="dev-total">--</div><div class="ds-lbl">Total Projects</div></div>
+            <div class="dev-stat"><div class="ds-val" id="dev-completed">--</div><div class="ds-lbl">Completed</div></div>
+            <div class="dev-stat"><div class="ds-val" id="dev-ongoing">--</div><div class="ds-lbl">Ongoing</div></div>
+            <div class="dev-stat"><div class="ds-val" id="dev-pending">--</div><div class="ds-lbl">Pending</div></div>
+          </div>
+          <div class="projects-list" id="projectsList"></div>
+        </div>
+
+        <!-- COMPLAINT TAB -->
+        <div class="tab-panel hidden" id="tab-complaint" role="tabpanel">
+          <div class="section-title">Public Complaints Register</div>
+          <div class="dev-status-row">
+            <div class="dev-stat"><div class="ds-val" id="cmp-total">--</div><div class="ds-lbl">Total Complaints</div></div>
+            <div class="dev-stat"><div class="ds-val" id="cmp-resolved">--</div><div class="ds-lbl">Resolved</div></div>
+            <div class="dev-stat"><div class="ds-val" id="cmp-pending">--</div><div class="ds-lbl">Pending</div></div>
+          </div>
+          <div class="complaints-list" id="complaintsList"></div>
+        </div>
+
+        <!-- ECONOMIC TAB -->
+        <div class="tab-panel hidden" id="tab-economic" role="tabpanel">
+          <div class="section-title">Economic Profile</div>
+          <div class="metrics-grid">
+            <div class="metric-card mc-orange"><div class="mc-value" id="ec-income">--</div><div class="mc-label">Avg Household Income</div></div>
+            <div class="metric-card"><div class="mc-value" id="ec-employment">--</div><div class="mc-label">Employment Rate</div></div>
+            <div class="metric-card"><div class="mc-value" id="ec-bpl">--</div><div class="mc-label">BPL Families</div></div>
+            <div class="metric-card"><div class="mc-value" id="ec-businesses">--</div><div class="mc-label">Registered Businesses</div></div>
+          </div>
+          <div class="section-title mt-lg">Employment Sector Breakdown</div>
+          <div class="sector-bars" id="sectorBars"></div>
+        </div>
+
+        <!-- RISK TAB -->
+        <div class="tab-panel hidden" id="tab-risk" role="tabpanel">
+          <div class="section-title">Risk Assessment</div>
+          <div class="risk-overall" id="riskOverall">
+            <div class="risk-label">Overall Risk Level</div>
+            <div class="risk-value" id="riskLevel">--</div>
+          </div>
+          <div class="risk-grid" id="riskGrid"></div>
+          <div class="section-title mt-lg">Strategic Vulnerabilities</div>
+          <div class="vuln-list" id="vulnList"></div>
+        </div>
+
+      </div><!-- /tab-panels -->
+
+      <!-- DATA SOURCE INFO -->
+      <div class="data-source-bar">
+        <span>🔗 Data Sources: <strong id="dataSources">--</strong></span>
+        <span>📊 Data Points Analyzed: <strong id="dataPoints">--</strong></span>
+        <span>🕒 Generated: <strong id="reportTime">--</strong></span>
+        <span class="confidential-tag">🔒 CONFIDENTIAL — Internal Use Only</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">RA</span>
+        <div>
+          <div class="footer-name">Rajtilak Analytics</div>
+          <div class="footer-by">By GetSetAI Innovations</div>
+        </div>
+      </div>
+      <div class="footer-center">Chhattisgarh Political Intelligence Platform</div>
+      <div class="footer-right">Internal Use Only &mdash; Confidential &copy; 2025</div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>
