@@ -1,0 +1,1886 @@
+{
+  "durg": {
+    "bhilai": {
+      "name": "Bhilai Municipal Corporation",
+      "wards": {
+        "ward_1": {
+          "total_voters": 4129,
+          "candidates": [
+            {
+              "name": "योगेश साहू",
+              "party": "IND",
+              "votes": 1796,
+              "winner": true
+            },
+            {
+              "name": "राके श कुमार धनकर",
+              "party": "BJP",
+              "votes": 1006
+            },
+            {
+              "name": "भूपेन्द्र कुमार साहू",
+              "party": "IND",
+              "votes": 627
+            },
+            {
+              "name": "महेन्द्र साहू दाऊ",
+              "party": "INC",
+              "votes": 322
+            }
+          ],
+          "nota_votes": 17,
+          "invalid_votes": 122,
+          "total_turnout": "91.2%"
+        },
+        "ward_2": {
+          "total_voters": 3469,
+          "candidates": [
+            {
+              "name": "मुके श कुमार अग्रवाल",
+              "party": "BJP",
+              "votes": 1083,
+              "winner": true
+            },
+            {
+              "name": "राजीव चौबे",
+              "party": "IND",
+              "votes": 1005
+            },
+            {
+              "name": "कमलेश देवांगन",
+              "party": "INC",
+              "votes": 999
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 43,
+          "total_turnout": "90.5%"
+        },
+        "ward_3": {
+          "total_voters": 3404,
+          "candidates": [
+            {
+              "name": "हरिओम तिवारी",
+              "party": "IND",
+              "votes": 1164,
+              "winner": true
+            },
+            {
+              "name": "आनंद कुमार डोंगरे",
+              "party": "IND",
+              "votes": 632
+            },
+            {
+              "name": "अरुण सिंह सिसोदिया",
+              "party": "INC",
+              "votes": 581
+            },
+            {
+              "name": "रमेश साहू दादर",
+              "party": "BJP",
+              "votes": 505
+            }
+          ],
+          "nota_votes": 23,
+          "invalid_votes": 82,
+          "total_turnout": "87.6%"
+        },
+        "ward_4": {
+          "total_voters": 2436,
+          "candidates": [
+            {
+              "name": "चन्देश्वरी बांधे",
+              "party": "BJP",
+              "votes": 1461,
+              "winner": true
+            },
+            {
+              "name": "भुवनेश्वरी रानी",
+              "party": "INC",
+              "votes": 901
+            }
+          ],
+          "nota_votes": 53,
+          "invalid_votes": 74,
+          "total_turnout": "94.2%"
+        },
+        "ward_5": {
+          "total_voters": 4426,
+          "candidates": [
+            {
+              "name": "संदीप निरंकारी",
+              "party": "INC",
+              "votes": 1699,
+              "winner": true
+            },
+            {
+              "name": "डॉ दिनेश एस साहू",
+              "party": "IND",
+              "votes": 1207
+            },
+            {
+              "name": "जयप्रकाश यादव",
+              "party": "BJP",
+              "votes": 1140
+            }
+          ],
+          "nota_votes": 20,
+          "invalid_votes": 83,
+          "total_turnout": "93.1%"
+        },
+        "ward_6": {
+          "total_voters": 2415,
+          "candidates": [
+            {
+              "name": "रविशंकर कु र्रे",
+              "party": "INC",
+              "votes": 972,
+              "winner": true
+            },
+            {
+              "name": "दीपक रावना",
+              "party": "BJP",
+              "votes": 679
+            },
+            {
+              "name": "नरेन्द्र बांधे",
+              "party": "IND",
+              "votes": 535
+            }
+          ],
+          "nota_votes": 15,
+          "invalid_votes": 61,
+          "total_turnout": "91.8%"
+        },
+        "ward_7": {
+          "total_voters": 4019,
+          "candidates": [
+            {
+              "name": "आदित्य सिंह",
+              "party": "INC",
+              "votes": 2767,
+              "winner": true
+            },
+            {
+              "name": "रमेश कुमार श्रीवास्तव",
+              "party": "BJP",
+              "votes": 955
+            }
+          ],
+          "nota_votes": 24,
+          "invalid_votes": 47,
+          "total_turnout": "93.8%"
+        },
+        "ward_8": {
+          "total_voters": 4357,
+          "candidates": [
+            {
+              "name": "राजेन्द्र कुमार",
+              "party": "IND",
+              "votes": 1935,
+              "winner": true
+            },
+            {
+              "name": "राजेन्द्र महिलांग",
+              "party": "INC",
+              "votes": 1076
+            },
+            {
+              "name": "संतोष कुमार श्रीरांगे",
+              "party": "BJP",
+              "votes": 790
+            }
+          ],
+          "nota_votes": 33,
+          "invalid_votes": 127,
+          "total_turnout": "88.6%"
+        },
+        "ward_9": {
+          "total_voters": 4658,
+          "candidates": [
+            {
+              "name": "रानू साहू",
+              "party": "IND",
+              "votes": 994,
+              "winner": true
+            },
+            {
+              "name": "पिंकी",
+              "party": "INC",
+              "votes": 935
+            },
+            {
+              "name": "रानी देवी केशरवानी",
+              "party": "BJP",
+              "votes": 669
+            },
+            {
+              "name": "उर्मिला तांडी",
+              "party": "SP",
+              "votes": 982
+            }
+          ],
+          "nota_votes": 41,
+          "invalid_votes": 118,
+          "total_turnout": "85.4%"
+        },
+        "ward_10": {
+          "total_voters": 4352,
+          "candidates": [
+            {
+              "name": "चन्द्रशेखर गर्ई",
+              "party": "INC",
+              "votes": 1216,
+              "winner": true
+            },
+            {
+              "name": "दिनेश कुमार शिन्दे",
+              "party": "BSP",
+              "votes": 1109
+            },
+            {
+              "name": "दीपक कुमार भोण्डेकर",
+              "party": "BJP",
+              "votes": 886
+            }
+          ],
+          "nota_votes": 19,
+          "invalid_votes": 142,
+          "total_turnout": "87.1%"
+        },
+        "ward_11": {
+          "total_voters": 3815,
+          "candidates": [
+            {
+              "name": "महेश वर्मा",
+              "party": "BJP",
+              "votes": 2112,
+              "winner": true
+            },
+            {
+              "name": "शमशेर अहमद सिद्धीकी",
+              "party": "INC",
+              "votes": 1365
+            }
+          ],
+          "nota_votes": 22,
+          "invalid_votes": 68,
+          "total_turnout": "94.7%"
+        },
+        "ward_12": {
+          "total_voters": 5655,
+          "candidates": [
+            {
+              "name": "गिरवर बंटी साहू",
+              "party": "INC",
+              "votes": 3948,
+              "winner": true
+            },
+            {
+              "name": "गोपाल साहू",
+              "party": "BJP",
+              "votes": 1590
+            }
+          ],
+          "nota_votes": 42,
+          "invalid_votes": 117,
+          "total_turnout": "96.4%"
+        },
+        "ward_13": {
+          "total_voters": 4113,
+          "candidates": [
+            {
+              "name": "अंजू सिन्हा",
+              "party": "INC",
+              "votes": 1587,
+              "winner": true
+            },
+            {
+              "name": "अनीता वर्मा",
+              "party": "BJP",
+              "votes": 862
+            },
+            {
+              "name": "सुनीति साहू",
+              "party": "JCC(J)",
+              "votes": 165
+            }
+          ],
+          "nota_votes": 38,
+          "invalid_votes": 112,
+          "total_turnout": "91.8%"
+        },
+        "ward_14": {
+          "total_voters": 4404,
+          "candidates": [
+            {
+              "name": "अभिषे क मिश्रा",
+              "party": "INC",
+              "votes": 2505,
+              "winner": true
+            },
+            {
+              "name": "अरविंद जैन",
+              "party": "BJP",
+              "votes": 1667
+            }
+          ],
+          "nota_votes": 50,
+          "invalid_votes": 98,
+          "total_turnout": "95.6%"
+        },
+        "ward_15": {
+          "total_voters": 3731,
+          "candidates": [
+            {
+              "name": "संतोष मौर्य र्ोजल",
+              "party": "BJP",
+              "votes": 1718,
+              "winner": true
+            },
+            {
+              "name": "कन्हैया चुरहे",
+              "party": "INC",
+              "votes": 549
+            }
+          ],
+          "nota_votes": 28,
+          "invalid_votes": 66,
+          "total_turnout": "91.3%"
+        },
+        "ward_16": {
+          "total_voters": 4058,
+          "candidates": [
+            {
+              "name": "के शर्व प्रसाद चौबे",
+              "party": "INC",
+              "votes": 1548,
+              "winner": true
+            },
+            {
+              "name": "धनेश्वर चौहार",
+              "party": "BJP",
+              "votes": 1279
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 98,
+          "total_turnout": "92.5%"
+        },
+        "ward_17": {
+          "total_voters": 4074,
+          "candidates": [
+            {
+              "name": "भोजराज भोजू",
+              "party": "BJP",
+              "votes": 2093,
+              "winner": true
+            },
+            {
+              "name": "विनोद यादव",
+              "party": "INC",
+              "votes": 1839
+            }
+          ],
+          "nota_votes": 24,
+          "invalid_votes": 93,
+          "total_turnout": "96.4%"
+        },
+        "ward_18": {
+          "total_voters": 3762,
+          "candidates": [
+            {
+              "name": "लालचंद वर्मा",
+              "party": "INC",
+              "votes": 1732,
+              "winner": true
+            },
+            {
+              "name": "राजकुमार साव",
+              "party": "IND",
+              "votes": 1311
+            },
+            {
+              "name": "उत्तमकुमार साहू",
+              "party": "BJP",
+              "votes": 555
+            }
+          ],
+          "nota_votes": 23,
+          "invalid_votes": 106,
+          "total_turnout": "93.1%"
+        },
+        "ward_19": {
+          "total_voters": 4140,
+          "candidates": [
+            {
+              "name": "रामानंद मौया",
+              "party": "IND",
+              "votes": 1640,
+              "winner": true
+            },
+            {
+              "name": "राजेन्द्र सिंह अरोरा",
+              "party": "INC",
+              "votes": 1368
+            },
+            {
+              "name": "राजू भैया",
+              "party": "IND",
+              "votes": 987
+            }
+          ],
+          "nota_votes": 34,
+          "invalid_votes": 145,
+          "total_turnout": "92.8%"
+        },
+        "ward_20": {
+          "total_voters": 2712,
+          "candidates": [
+            {
+              "name": "स्मिता दोर्के",
+              "party": "BJP",
+              "votes": 1404,
+              "winner": true
+            },
+            {
+              "name": "सुषमा उपाध्याय",
+              "party": "INC",
+              "votes": 852
+            }
+          ],
+          "nota_votes": 35,
+          "invalid_votes": 54,
+          "total_turnout": "90.2%"
+        },
+        "ward_21": {
+          "total_voters": 3983,
+          "candidates": [
+            {
+              "name": "नेहा साहू",
+              "party": "INC",
+              "votes": 1478,
+              "winner": true
+            },
+            {
+              "name": "क्रीती गुप्ता",
+              "party": "IND",
+              "votes": 1175
+            },
+            {
+              "name": "रीता सिंह",
+              "party": "BJP",
+              "votes": 843
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 100,
+          "total_turnout": "89.6%"
+        },
+        "ward_22": {
+          "total_voters": 5464,
+          "candidates": [
+            {
+              "name": "अनीता अजय साहू",
+              "party": "IND",
+              "votes": 1653,
+              "winner": true
+            },
+            {
+              "name": "मंजूचन्द्राकर",
+              "party": "IND",
+              "votes": 1158
+            },
+            {
+              "name": "लता सोमेश साहू",
+              "party": "BJP",
+              "votes": 1037
+            },
+            {
+              "name": "पूर्णिमा साहू",
+              "party": "INC",
+              "votes": 909
+            }
+          ],
+          "nota_votes": 32,
+          "invalid_votes": 172,
+          "total_turnout": "91.8%"
+        },
+        "ward_23": {
+          "total_voters": 5090,
+          "candidates": [
+            {
+              "name": "उषा शर्मा",
+              "party": "INC",
+              "votes": 1051,
+              "winner": true
+            },
+            {
+              "name": "निखिल सोनी",
+              "party": "BJP",
+              "votes": 1012
+            },
+            {
+              "name": "कालिका कुमार",
+              "party": "IND",
+              "votes": 847
+            }
+          ],
+          "nota_votes": 35,
+          "invalid_votes": 172,
+          "total_turnout": "92.5%"
+        },
+        "ward_24": {
+          "total_voters": 3425,
+          "candidates": [
+            {
+              "name": "नितीश यादव",
+              "party": "INC",
+              "votes": 1830,
+              "winner": true
+            },
+            {
+              "name": "सन्नी यादव",
+              "party": "BJP",
+              "votes": 1353
+            }
+          ],
+          "nota_votes": 36,
+          "invalid_votes": 87,
+          "total_turnout": "94.3%"
+        },
+        "ward_25": {
+          "total_voters": 4556,
+          "candidates": [
+            {
+              "name": "नोहर वर्मा",
+              "party": "BJP",
+              "votes": 2771,
+              "winner": true
+            },
+            {
+              "name": "अनीषा बघेल",
+              "party": "INC",
+              "votes": 1628
+            }
+          ],
+          "nota_votes": 81,
+          "invalid_votes": 157,
+          "total_turnout": "96.4%"
+        },
+        "ward_26": {
+          "total_voters": 3683,
+          "candidates": [
+            {
+              "name": "रिके श सेन",
+              "party": "BJP",
+              "votes": 1532,
+              "winner": true
+            },
+            {
+              "name": "बलदाउ पिपरिया",
+              "party": "INC",
+              "votes": 1391
+            },
+            {
+              "name": "गोमती साहू",
+              "party": "JCC(J)",
+              "votes": 75
+            }
+          ],
+          "nota_votes": 10,
+          "invalid_votes": 126,
+          "total_turnout": "85.4%"
+        },
+        "ward_27": {
+          "total_voters": 5502,
+          "candidates": [
+            {
+              "name": "लक्ष्मी बाई साहू",
+              "party": "BJP",
+              "votes": 2928,
+              "winner": true
+            },
+            {
+              "name": "जोहन सिन्हा",
+              "party": "INC",
+              "votes": 1958
+            }
+          ],
+          "nota_votes": 29,
+          "invalid_votes": 209,
+          "total_turnout": "92.6%"
+        },
+        "ward_28": {
+          "total_voters": 4896,
+          "candidates": [
+            {
+              "name": "शारदा राय",
+              "party": "INC",
+              "votes": 3140,
+              "winner": true
+            },
+            {
+              "name": "अचाना मनोज यादव",
+              "party": "BJP",
+              "votes": 1647
+            }
+          ],
+          "nota_votes": 11,
+          "invalid_votes": 94,
+          "total_turnout": "95.1%"
+        },
+        "ward_29": {
+          "total_voters": 4798,
+          "candidates": [
+            {
+              "name": "संजय सिंह",
+              "party": "BJP",
+              "votes": 1755,
+              "winner": true
+            },
+            {
+              "name": "डॉ दिवाकर भारती",
+              "party": "INC",
+              "votes": 1422
+            },
+            {
+              "name": "बलविंदर सिंह",
+              "party": "AAP",
+              "votes": 907
+            }
+          ],
+          "nota_votes": 13,
+          "invalid_votes": 103,
+          "total_turnout": "91.8%"
+        },
+        "ward_30": {
+          "total_voters": 4440,
+          "candidates": [
+            {
+              "name": "सत्या देवी जायसवाल",
+              "party": "BJP",
+              "votes": 1746,
+              "winner": true
+            },
+            {
+              "name": "स्वाती जी राजू",
+              "party": "INC",
+              "votes": 1146
+            }
+          ],
+          "nota_votes": 13,
+          "invalid_votes": 109,
+          "total_turnout": "93.4%"
+        },
+        "ward_31": {
+          "total_voters": 4438,
+          "candidates": [
+            {
+              "name": "प्रियंका साहू",
+              "party": "BJP",
+              "votes": 2130,
+              "winner": true
+            },
+            {
+              "name": "रिपा संजीव यादव",
+              "party": "INC",
+              "votes": 1525
+            }
+          ],
+          "nota_votes": 33,
+          "invalid_votes": 119,
+          "total_turnout": "88.6%"
+        },
+        "ward_32": {
+          "total_voters": 3619,
+          "candidates": [
+            {
+              "name": "लक्ष्मी दिवाकर",
+              "party": "BJP",
+              "votes": 1592,
+              "winner": true
+            },
+            {
+              "name": "आरती",
+              "party": "INC",
+              "votes": 1482
+            }
+          ],
+          "nota_votes": 33,
+          "invalid_votes": 100,
+          "total_turnout": "92.4%"
+        },
+        "ward_33": {
+          "total_voters": 4305,
+          "candidates": [
+            {
+              "name": "एन शैलजा",
+              "party": "BJP",
+              "votes": 1440,
+              "winner": true
+            },
+            {
+              "name": "धरमीन बाई देवांगन",
+              "party": "IND",
+              "votes": 1393
+            },
+            {
+              "name": "कविता दुर्गा प्रसाद साहू",
+              "party": "INC",
+              "votes": 879
+            }
+          ],
+          "nota_votes": 31,
+          "invalid_votes": 129,
+          "total_turnout": "89.6%"
+        },
+        "ward_34": {
+          "total_voters": 3745,
+          "candidates": [
+            {
+              "name": "संतोष नाथ सिंह",
+              "party": "IND",
+              "votes": 1369,
+              "winner": true
+            },
+            {
+              "name": "छोटेलाल चौधरी",
+              "party": "BJP",
+              "votes": 1290
+            },
+            {
+              "name": "राजेश कुमार चौधरी",
+              "party": "INC",
+              "votes": 727
+            }
+          ],
+          "nota_votes": 30,
+          "invalid_votes": 73,
+          "total_turnout": "94.7%"
+        },
+        "ward_35": {
+          "total_voters": 3907,
+          "candidates": [
+            {
+              "name": "इंजीनियर सलमान",
+              "party": "IND",
+              "votes": 1514,
+              "winner": true
+            },
+            {
+              "name": "चंदन यादव",
+              "party": "BJP",
+              "votes": 1395
+            }
+          ],
+          "nota_votes": 13,
+          "invalid_votes": 62,
+          "total_turnout": "87.6%"
+        },
+        "ward_36": {
+          "total_voters": 4243,
+          "candidates": [
+            {
+              "name": "विनोद चेलक",
+              "party": "BJP",
+              "votes": 2283,
+              "winner": true
+            },
+            {
+              "name": "देवककुमार बन्जारे",
+              "party": "INC",
+              "votes": 1789
+            }
+          ],
+          "nota_votes": 50,
+          "invalid_votes": 171,
+          "total_turnout": "95.6%"
+        },
+        "ward_37": {
+          "total_voters": 4048,
+          "candidates": [
+            {
+              "name": "मन्नान गफ्फार खान",
+              "party": "INC",
+              "votes": 2590,
+              "winner": true
+            },
+            {
+              "name": "मयगेश सोनी",
+              "party": "BJP",
+              "votes": 1395
+            }
+          ],
+          "nota_votes": 11,
+          "invalid_votes": 44,
+          "total_turnout": "94.8%"
+        },
+        "ward_38": {
+          "total_voters": 3261,
+          "candidates": [
+            {
+              "name": "पियूष मिश्रा",
+              "party": "BJP",
+              "votes": 1485,
+              "winner": true
+            },
+            {
+              "name": "राजा देवांगन",
+              "party": "INC",
+              "votes": 1456
+            }
+          ],
+          "nota_votes": 13,
+          "invalid_votes": 63,
+          "total_turnout": "90.2%"
+        },
+        "ward_39": {
+          "total_voters": 2982,
+          "candidates": [
+            {
+              "name": "रीता सिंह गेरा",
+              "party": "INC",
+              "votes": 1646,
+              "winner": true
+            },
+            {
+              "name": "प्रभा प्रकाश लहरे",
+              "party": "BJP",
+              "votes": 946
+            }
+          ],
+          "nota_votes": 26,
+          "invalid_votes": 54,
+          "total_turnout": "87.4%"
+        },
+        "ward_40": {
+          "total_voters": 4934,
+          "candidates": [
+            {
+              "name": "गिरिजा बाई बंछोर",
+              "party": "BJP",
+              "votes": 1675,
+              "winner": true
+            },
+            {
+              "name": "तुलसी पटेल",
+              "party": "INC",
+              "votes": 1435
+            },
+            {
+              "name": "श्वेता पटेल",
+              "party": "JCC(J)",
+              "votes": 1359
+            }
+          ],
+          "nota_votes": 28,
+          "invalid_votes": 119,
+          "total_turnout": "94.2%"
+        },
+        "ward_41": {
+          "total_voters": 3181,
+          "candidates": [
+            {
+              "name": "विणा चन्द्राकर",
+              "party": "BJP",
+              "votes": 1143,
+              "winner": true
+            },
+            {
+              "name": "विनीता यादव",
+              "party": "INC",
+              "votes": 1018
+            }
+          ],
+          "nota_votes": 21,
+          "invalid_votes": 116,
+          "total_turnout": "71.6%"
+        },
+        "ward_42": {
+          "total_voters": 3700,
+          "candidates": [
+            {
+              "name": "श्याम बहादुर सिंह",
+              "party": "BJP",
+              "votes": 1715,
+              "winner": true
+            },
+            {
+              "name": "अजीत सिंह",
+              "party": "INC",
+              "votes": 1405
+            }
+          ],
+          "nota_votes": 25,
+          "invalid_votes": 73,
+          "total_turnout": "86.3%"
+        },
+        "ward_43": {
+          "total_voters": 3202,
+          "candidates": [
+            {
+              "name": "सरिता देवी",
+              "party": "BJP",
+              "votes": 1609,
+              "winner": true
+            },
+            {
+              "name": "मार्तण्ड सिंह मनहर",
+              "party": "INC",
+              "votes": 1427
+            }
+          ],
+          "nota_votes": 79,
+          "invalid_votes": 166,
+          "total_turnout": "95.0%"
+        },
+        "ward_44": {
+          "total_voters": 2843,
+          "candidates": [
+            {
+              "name": "दया सिंह",
+              "party": "BJP",
+              "votes": 1688,
+              "winner": true
+            },
+            {
+              "name": "मानवेन्द्र सिंह मंगल",
+              "party": "INC",
+              "votes": 707
+            }
+          ],
+          "nota_votes": 11,
+          "invalid_votes": 94,
+          "total_turnout": "84.2%"
+        },
+        "ward_45": {
+          "total_voters": 3895,
+          "candidates": [
+            {
+              "name": "पी श्याम सुन्दर राव",
+              "party": "BJP",
+              "votes": 1598,
+              "winner": true
+            },
+            {
+              "name": "डी नागमणि",
+              "party": "INC",
+              "votes": 1470
+            }
+          ],
+          "nota_votes": 10,
+          "invalid_votes": 64,
+          "total_turnout": "80.4%"
+        },
+        "ward_46": {
+          "total_voters": 3508,
+          "candidates": [
+            {
+              "name": "के जगदीश कुमार",
+              "party": "INC",
+              "votes": 1453,
+              "winner": true
+            },
+            {
+              "name": "रामप्रीत पासवान",
+              "party": "BJP",
+              "votes": 835
+            }
+          ],
+          "nota_votes": 17,
+          "invalid_votes": 213,
+          "total_turnout": "72.4%"
+        },
+        "ward_47": {
+          "total_voters": 4602,
+          "candidates": [
+            {
+              "name": "भूपेन्द्र यादव",
+              "party": "INC",
+              "votes": 2217,
+              "winner": true
+            },
+            {
+              "name": "लाल बाबू सोनी",
+              "party": "BJP",
+              "votes": 1952
+            },
+            {
+              "name": "राके श राम चौधरी",
+              "party": "IND",
+              "votes": 313
+            }
+          ],
+          "nota_votes": 59,
+          "invalid_votes": 120,
+          "total_turnout": "98.6%"
+        },
+        "ward_48": {
+          "total_voters": 4037,
+          "candidates": [
+            {
+              "name": "शुभम कुमार झा",
+              "party": "INC",
+              "votes": 1719,
+              "winner": true
+            },
+            {
+              "name": "जय शंकर चौधरी",
+              "party": "BJP",
+              "votes": 1130
+            },
+            {
+              "name": "रुपे श वर्मा",
+              "party": "IND",
+              "votes": 1009
+            }
+          ],
+          "nota_votes": 57,
+          "invalid_votes": 57,
+          "total_turnout": "95.6%"
+        },
+        "ward_49": {
+          "total_voters": 3316,
+          "candidates": [
+            {
+              "name": "एम लक्ष्मी गोपाल",
+              "party": "INC",
+              "votes": 1904,
+              "winner": true
+            },
+            {
+              "name": "आशा शर्मा",
+              "party": "BJP",
+              "votes": 1175
+            }
+          ],
+          "nota_votes": 19,
+          "invalid_votes": 68,
+          "total_turnout": "94.2%"
+        },
+        "ward_50": {
+          "total_voters": 3603,
+          "candidates": [
+            {
+              "name": "डी सुजाता",
+              "party": "INC",
+              "votes": 1222,
+              "winner": true
+            },
+            {
+              "name": "तवस्सुम अकबर अली बब्बू",
+              "party": "IND",
+              "votes": 898
+            },
+            {
+              "name": "सत्यवती साहू",
+              "party": "IND",
+              "votes": 677
+            }
+          ],
+          "nota_votes": 20,
+          "invalid_votes": 95,
+          "total_turnout": "80.4%"
+        },
+        "ward_51": {
+          "total_voters": 4659,
+          "candidates": [
+            {
+              "name": "मीना बंजारे",
+              "party": "INC",
+              "votes": 1615,
+              "winner": true
+            },
+            {
+              "name": "उषा मधुकर",
+              "party": "BJP",
+              "votes": 1528
+            }
+          ],
+          "nota_votes": 41,
+          "invalid_votes": 151,
+          "total_turnout": "91.8%"
+        },
+        "ward_52": {
+          "total_voters": 1567,
+          "candidates": [
+            {
+              "name": "सुरेश कुमार वर्मा",
+              "party": "INC",
+              "votes": 617,
+              "winner": true
+            },
+            {
+              "name": "कु लेश्वरी प्रसाद साहू",
+              "party": "BJP",
+              "votes": 600
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 6,
+          "total_turnout": "78.6%"
+        },
+        "ward_53": {
+          "total_voters": 1834,
+          "candidates": [
+            {
+              "name": "शकुं तला साहू",
+              "party": "BJP",
+              "votes": 716,
+              "winner": true
+            },
+            {
+              "name": "एल राजेश्वरी",
+              "party": "INC",
+              "votes": 628
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 34,
+          "total_turnout": "76.4%"
+        },
+        "ward_54": {
+          "total_voters": 2565,
+          "candidates": [
+            {
+              "name": "वशिष्ट",
+              "party": "IND",
+              "votes": 1099,
+              "winner": true
+            },
+            {
+              "name": "रश्मि सिंह",
+              "party": "BJP",
+              "votes": 802
+            },
+            {
+              "name": "धन्नू मिश्रा",
+              "party": "INC",
+              "votes": 329
+            }
+          ],
+          "nota_votes": 20,
+          "invalid_votes": 31,
+          "total_turnout": "88.6%"
+        },
+        "ward_55": {
+          "total_voters": 2623,
+          "candidates": [
+            {
+              "name": "नोमिन साहू",
+              "party": "INC",
+              "votes": 1203,
+              "winner": true
+            },
+            {
+              "name": "पार्वती साहू",
+              "party": "BJP",
+              "votes": 964
+            }
+          ],
+          "nota_votes": 44,
+          "invalid_votes": 64,
+          "total_turnout": "90.2%"
+        },
+        "ward_56": {
+          "total_voters": 3183,
+          "candidates": [
+            {
+              "name": "साधना सिंह",
+              "party": "INC",
+              "votes": 1199,
+              "winner": true
+            },
+            {
+              "name": "जे ललिता",
+              "party": "BJP",
+              "votes": 1198
+            }
+          ],
+          "nota_votes": 19,
+          "invalid_votes": 38,
+          "total_turnout": "78.4%"
+        },
+        "ward_57": {
+          "total_voters": 2547,
+          "candidates": [
+            {
+              "name": "राजेश चौधरी",
+              "party": "INC",
+              "votes": 1141,
+              "winner": true
+            },
+            {
+              "name": "प्रवीण कुमार बिस्वाल",
+              "party": "BJP",
+              "votes": 723
+            }
+          ],
+          "nota_votes": 17,
+          "invalid_votes": 38,
+          "total_turnout": "81.8%"
+        },
+        "ward_58": {
+          "total_voters": 2644,
+          "candidates": [
+            {
+              "name": "ईश्वरी",
+              "party": "BJP",
+              "votes": 1299,
+              "winner": true
+            },
+            {
+              "name": "संगीता ध्रुव",
+              "party": "INC",
+              "votes": 1263
+            }
+          ],
+          "nota_votes": 40,
+          "invalid_votes": 82,
+          "total_turnout": "98.6%"
+        },
+        "ward_59": {
+          "total_voters": 3136,
+          "candidates": [
+            {
+              "name": "एकांश बंछोर",
+              "party": "INC",
+              "votes": 2359,
+              "winner": true
+            },
+            {
+              "name": "शिव प्रकाश शिबू",
+              "party": "BJP",
+              "votes": 699
+            }
+          ],
+          "nota_votes": 45,
+          "invalid_votes": 78,
+          "total_turnout": "98.6%"
+        },
+        "ward_60": {
+          "total_voters": 2178,
+          "candidates": [
+            {
+              "name": "नीरज पाल",
+              "party": "INC",
+              "votes": 1821,
+              "winner": true
+            },
+            {
+              "name": "शैलबाला साहू",
+              "party": "BJP",
+              "votes": 314
+            }
+          ],
+          "nota_votes": 17,
+          "invalid_votes": 43,
+          "total_turnout": "98.6%"
+        },
+        "ward_61": {
+          "total_voters": 2449,
+          "candidates": [
+            {
+              "name": "सेवन कुमार",
+              "party": "INC",
+              "votes": 1070,
+              "winner": true
+            },
+            {
+              "name": "गजेन्द्र कुमार धुर्वे",
+              "party": "BJP",
+              "votes": 988
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 57,
+          "total_turnout": "86.3%"
+        },
+        "ward_62": {
+          "total_voters": 1987,
+          "candidates": [
+            {
+              "name": "माल्ती ठाकुर",
+              "party": "INC",
+              "votes": 961,
+              "winner": true
+            },
+            {
+              "name": "ज्योति ठाकुर",
+              "party": "BJP",
+              "votes": 945
+            }
+          ],
+          "nota_votes": 42,
+          "invalid_votes": 81,
+          "total_turnout": "98.6%"
+        },
+        "ward_63": {
+          "total_voters": 3102,
+          "candidates": [
+            {
+              "name": "साके त चन्द्राकर",
+              "party": "INC",
+              "votes": 1710,
+              "winner": true
+            },
+            {
+              "name": "मोनिश कुमार देशमुख",
+              "party": "BJP",
+              "votes": 1288
+            }
+          ],
+          "nota_votes": 30,
+          "invalid_votes": 61,
+          "total_turnout": "98.6%"
+        },
+        "ward_64": {
+          "total_voters": 1975,
+          "candidates": [
+            {
+              "name": "अभय कुमार सोनी",
+              "party": "INC",
+              "votes": 974,
+              "winner": true
+            },
+            {
+              "name": "उपासना साहू",
+              "party": "BJP",
+              "votes": 969
+            }
+          ],
+          "nota_votes": 13,
+          "invalid_votes": 32,
+          "total_turnout": "98.6%"
+        },
+        "ward_65": {
+          "total_voters": 2614,
+          "candidates": [
+            {
+              "name": "सुभद्रा सिंह",
+              "party": "INC",
+              "votes": 1532,
+              "winner": true
+            },
+            {
+              "name": "रीता यादव",
+              "party": "BJP",
+              "votes": 892
+            }
+          ],
+          "nota_votes": 25,
+          "invalid_votes": 45,
+          "total_turnout": "94.2%"
+        },
+        "ward_66": {
+          "total_voters": 3698,
+          "candidates": [
+            {
+              "name": "लक्ष्मीपति राजू",
+              "party": "INC",
+              "votes": 2573,
+              "winner": true
+            },
+            {
+              "name": "ललन कुमार यादव",
+              "party": "BJP",
+              "votes": 1054
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 47,
+          "total_turnout": "98.6%"
+        },
+        "ward_67": {
+          "total_voters": 2698,
+          "candidates": [
+            {
+              "name": "उमेश कुमार साहू",
+              "party": "INC",
+              "votes": 1128,
+              "winner": true
+            },
+            {
+              "name": "अजय कुमार विश्वकर्मा",
+              "party": "IND",
+              "votes": 884
+            },
+            {
+              "name": "छत्रपाल साहू",
+              "party": "BJP",
+              "votes": 628
+            }
+          ],
+          "nota_votes": 26,
+          "invalid_votes": 58,
+          "total_turnout": "98.6%"
+        },
+        "ward_68": {
+          "total_voters": 1914,
+          "candidates": [
+            {
+              "name": "भगवती शर्मा",
+              "party": "INC",
+              "votes": 821,
+              "winner": true
+            },
+            {
+              "name": "रामेश्वरी निमार्कर",
+              "party": "IND",
+              "votes": 699
+            },
+            {
+              "name": "चमेली दिनेश गौतम",
+              "party": "BJP",
+              "votes": 302
+            }
+          ],
+          "nota_votes": 7,
+          "invalid_votes": 31,
+          "total_turnout": "80.4%"
+        },
+        "ward_69": {
+          "total_voters": 2877,
+          "candidates": [
+            {
+              "name": "कोमल दास टंडन",
+              "party": "INC",
+              "votes": 1630,
+              "winner": true
+            },
+            {
+              "name": "श्याम मालेकर",
+              "party": "BJP",
+              "votes": 1023
+            }
+          ],
+          "nota_votes": 27,
+          "invalid_votes": 77,
+          "total_turnout": "94.2%"
+        },
+        "ward_70": {
+          "total_voters": 4286,
+          "candidates": [
+            {
+              "name": "सीजू एंथोनी",
+              "party": "INC",
+              "votes": 1725,
+              "winner": true
+            },
+            {
+              "name": "दिनेश प्रसाद यादव",
+              "party": "BJP",
+              "votes": 1576
+            }
+          ],
+          "nota_votes": 41,
+          "invalid_votes": 88,
+          "total_turnout": "98.6%"
+        }
+      }
+    }
+  },
+  "koriya": {
+    "baikunthpur": {
+      "name": "Baikunthpur Municipal Council",
+      "wards": {
+        "ward_1": {
+          "total_voters": 665,
+          "candidates": [
+            {
+              "name": "भानू कुमार पाल",
+              "party": "BJP",
+              "votes": 265,
+              "winner": true
+            },
+            {
+              "name": "सोनू डवरे",
+              "party": "INC",
+              "votes": 236
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 9,
+          "total_turnout": "84.5%"
+        },
+        "ward_2": {
+          "total_voters": 605,
+          "candidates": [
+            {
+              "name": "सुनील गुप्ता",
+              "party": "INC",
+              "votes": 227,
+              "winner": true
+            },
+            {
+              "name": "कुसुम जायसवाल",
+              "party": "BJP",
+              "votes": 143
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 9,
+          "total_turnout": "75.4%"
+        },
+        "ward_3": {
+          "total_voters": 773,
+          "candidates": [
+            {
+              "name": "मनीष कुमार सिंह",
+              "party": "INC",
+              "votes": 231,
+              "winner": true
+            },
+            {
+              "name": "एरियट मिन्ज",
+              "party": "BJP",
+              "votes": 146
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 3,
+          "total_turnout": "72.4%"
+        },
+        "ward_4": {
+          "total_voters": 547,
+          "candidates": [
+            {
+              "name": "अनिल कुमार खटिक",
+              "party": "BJP",
+              "votes": 173,
+              "winner": true
+            },
+            {
+              "name": "शशि कुमार मांझी",
+              "party": "INC",
+              "votes": 172
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 4,
+          "total_turnout": "80.4%"
+        },
+        "ward_5": {
+          "total_voters": 842,
+          "candidates": [
+            {
+              "name": "धीरज कुमार शिवहरे",
+              "party": "INC",
+              "votes": 233,
+              "winner": true
+            },
+            {
+              "name": "गुलाब गुप्ता",
+              "party": "BJP",
+              "votes": 224
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 7,
+          "total_turnout": "84.5%"
+        },
+        "ward_6": {
+          "total_voters": 541,
+          "candidates": [
+            {
+              "name": "आशिष कुमार यादव",
+              "party": "INC",
+              "votes": 248,
+              "winner": true
+            },
+            {
+              "name": "शैलेश शिवहरे",
+              "party": "BJP",
+              "votes": 172
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 5,
+          "total_turnout": "87.1%"
+        },
+        "ward_7": {
+          "total_voters": 873,
+          "candidates": [
+            {
+              "name": "अभिनेन्द्र सिंह",
+              "party": "IND",
+              "votes": 327,
+              "winner": true
+            },
+            {
+              "name": "संतोष कुमार राजवाड़े",
+              "party": "BJP",
+              "votes": 230
+            },
+            {
+              "name": "राजेश घसिया",
+              "party": "INC",
+              "votes": 103
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 12,
+          "total_turnout": "75.4%"
+        },
+        "ward_8": {
+          "total_voters": 606,
+          "candidates": [
+            {
+              "name": "बाबी",
+              "party": "INC",
+              "votes": 300,
+              "winner": true
+            },
+            {
+              "name": "शिवम कुमार",
+              "party": "BJP",
+              "votes": 215
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 12,
+          "total_turnout": "94.2%"
+        },
+        "ward_9": {
+          "total_voters": 898,
+          "candidates": [
+            {
+              "name": "ममता पनिकॉ",
+              "party": "BJP",
+              "votes": 298,
+              "winner": true
+            },
+            {
+              "name": "प्रगीता सिंह",
+              "party": "INC",
+              "votes": 291
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 21,
+          "total_turnout": "78.4%"
+        },
+        "ward_10": {
+          "total_voters": 615,
+          "candidates": [
+            {
+              "name": "अहमदुल्ला फिरोज",
+              "party": "INC",
+              "votes": 282,
+              "winner": true
+            },
+            {
+              "name": "अरशद",
+              "party": "BJP",
+              "votes": 176
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 6,
+          "total_turnout": "76.4%"
+        },
+        "ward_11": {
+          "total_voters": 599,
+          "candidates": [
+            {
+              "name": "मुशरत जहाँ",
+              "party": "INC",
+              "votes": 339,
+              "winner": true
+            },
+            {
+              "name": "शाहजहाँ",
+              "party": "BJP",
+              "votes": 77
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 2,
+          "total_turnout": "80.4%"
+        },
+        "ward_12": {
+          "total_voters": 611,
+          "candidates": [
+            {
+              "name": "नविता शिवहरे",
+              "party": "BJP",
+              "votes": 286,
+              "winner": true
+            },
+            {
+              "name": "प्रखर जायसवाल",
+              "party": "INC",
+              "votes": 96
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 8,
+          "total_turnout": "72.4%"
+        },
+        "ward_13": {
+          "total_voters": 529,
+          "candidates": [
+            {
+              "name": "अंकित गुप्ता",
+              "party": "INC",
+              "votes": 231,
+              "winner": true
+            },
+            {
+              "name": "संतोष गुप्ता",
+              "party": "BJP",
+              "votes": 88
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 3,
+          "total_turnout": "82.4%"
+        },
+        "ward_14": {
+          "total_voters": 434,
+          "candidates": [
+            {
+              "name": "साधना जायसवाल",
+              "party": "INC",
+              "votes": 197,
+              "winner": true
+            },
+            {
+              "name": "सरिता जायसवाल",
+              "party": "BJP",
+              "votes": 82
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 8,
+          "total_turnout": "75.4%"
+        },
+        "ward_15": {
+          "total_voters": 370,
+          "candidates": [
+            {
+              "name": "अवधेश नारायण सिंह",
+              "party": "BJP",
+              "votes": 82,
+              "winner": true
+            },
+            {
+              "name": "देवी प्रसाद खटिक",
+              "party": "INC",
+              "votes": 56
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 0,
+          "total_turnout": "80.4%"
+        },
+        "ward_16": {
+          "total_voters": 693,
+          "candidates": [
+            {
+              "name": "अन्नपूर्णा सिंह",
+              "party": "INC",
+              "votes": 241,
+              "winner": true
+            },
+            {
+              "name": "अर्चना गुप्ता",
+              "party": "BJP",
+              "votes": 152
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 10,
+          "total_turnout": "85.4%"
+        },
+        "ward_17": {
+          "total_voters": 543,
+          "candidates": [
+            {
+              "name": "शिल्पा गुप्ता",
+              "party": "BJP",
+              "votes": 220,
+              "winner": true
+            },
+            {
+              "name": "पूजा तिवारी",
+              "party": "INC",
+              "votes": 195
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 6,
+          "total_turnout": "94.2%"
+        },
+        "ward_18": {
+          "total_voters": 933,
+          "candidates": [
+            {
+              "name": "ललिता सिंह",
+              "party": "INC",
+              "votes": 162,
+              "winner": true
+            },
+            {
+              "name": "तोता रानी सिंह",
+              "party": "BJP",
+              "votes": 138
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 8,
+          "total_turnout": "78.4%"
+        },
+        "ward_19": {
+          "total_voters": 850,
+          "candidates": [
+            {
+              "name": "रीमा जायसवाल",
+              "party": "BJP",
+              "votes": 335,
+              "winner": true
+            },
+            {
+              "name": "उमा जायसवाल",
+              "party": "IND",
+              "votes": 176
+            },
+            {
+              "name": "जुबेदा बेगम",
+              "party": "INC",
+              "votes": 106
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 10,
+          "total_turnout": "76.4%"
+        },
+        "ward_20": {
+          "total_voters": 628,
+          "candidates": [
+            {
+              "name": "संजय जायसवाल",
+              "party": "IND",
+              "votes": 192,
+              "winner": true
+            },
+            {
+              "name": "कमल साय राजवाड़े",
+              "party": "IND",
+              "votes": 118
+            },
+            {
+              "name": "अब्दुल कादिर",
+              "party": "IND",
+              "votes": 101
+            }
+          ],
+          "nota_votes": 0,
+          "invalid_votes": 9,
+          "total_turnout": "80.4%"
+        }
+      }
+    }
+  }
+}

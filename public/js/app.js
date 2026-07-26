@@ -293,6 +293,9 @@ function renderDashboard(data, selectedKeyword) {
   // Risk Tab
   renderRiskTab(data);
 
+  // Ward Profile Tab
+  renderWardProfileTab(data);
+
   // Navigate to designated tab
   activateTab(tabToActivate);
 }
@@ -1016,4 +1019,204 @@ function generateSimulatedWardData(wardNumRaw, districtName, cityName) {
       threats: ["New young opposition coordinator gaining local influence."]
     }
   };
+}
+
+// =====================================================================
+// WARD PROFILE TAB — Flagship Ground-Truth Intelligence Display
+// =====================================================================
+function renderWardProfileTab(data) {
+
+  // --- Identity Banner ---
+  const wardNum = data.region ? (data.region.match(/\d+/) || ['--'])[0] : '--';
+  const elWardNum = document.getElementById('wp-ward-num');
+  const elCname   = document.getElementById('wp-cname');
+  const elParty   = document.getElementById('wp-party');
+  const elSentPill = document.getElementById('wp-sentiment-pill');
+  const elSplit   = document.getElementById('wp-voter-split');
+
+  if (elWardNum) elWardNum.textContent = wardNum;
+  if (elCname && data.basic_profile) elCname.textContent = data.basic_profile.name || 'Councillor';
+  if (elParty && data.basic_profile) elParty.textContent = data.basic_profile.party || '';
+
+  // Voter sentiment pill
+  const vs = data.voter_sentiment || null;
+  if (elSentPill) {
+    const sent = vs ? vs.current_sentiment : 'N/A';
+    elSentPill.textContent = `Voter Sentiment: ${sent}`;
+    if (sent === 'Mixed') elSentPill.style.borderColor = '#f59e0b';
+    else if (sent === 'Positive') elSentPill.style.borderColor = '#10b981';
+    else if (sent === 'Negative') elSentPill.style.borderColor = '#ef4444';
+  }
+
+  // Voter split chips
+  if (elSplit) {
+    const vd = data.voter_demographics || null;
+    const malePct   = vd ? vd.male_pct   : (data.current_term ? Math.round((data.current_term.male_voters / (data.current_term.total_voters || 1)) * 100) : 52);
+    const femalePct = vd ? vd.female_pct : (100 - malePct);
+    elSplit.innerHTML = `
+      <div class="wp-split-chip">
+        <span class="wp-split-pct" style="color:#38bdf8">${malePct}%</span>
+        <span class="wp-split-lbl">&#9794; Male Voters</span>
+      </div>
+      <div class="wp-split-chip">
+        <span class="wp-split-pct" style="color:#f472b6">${femalePct}%</span>
+        <span class="wp-split-lbl">&#9792; Female Voters</span>
+      </div>
+    `;
+  }
+
+  // --- Voter Demographics ---
+  const elDemoGrid = document.getElementById('wp-demo-grid');
+  const elStratNote = document.getElementById('wp-strategic-note');
+  if (elDemoGrid) {
+    const vd = data.voter_demographics || {};
+    const m = vd.male_pct || 52;
+    const f = vd.female_pct || 48;
+    elDemoGrid.innerHTML = `
+      <div class="wp-demo-chip male">
+        <span class="wp-demo-pct">${m}%</span>
+        <span class="wp-demo-lbl">&#9794; Male Voters</span>
+      </div>
+      <div class="wp-demo-chip female">
+        <span class="wp-demo-pct">${f}%</span>
+        <span class="wp-demo-lbl">&#9792; Female Voters</span>
+      </div>
+    `;
+  }
+  if (elStratNote && data.voter_demographics && data.voter_demographics.strategic_note) {
+    elStratNote.textContent = '⚡ Strategic Observation: ' + data.voter_demographics.strategic_note;
+  }
+
+  // --- Public Issues ---
+  const elIssues = document.getElementById('wp-issues-wrap');
+  if (elIssues) {
+    elIssues.innerHTML = '';
+    const pi = data.public_issues || null;
+    if (!pi) {
+      elIssues.innerHTML = '<p style="color:var(--text-secondary)">No public issue data available.</p>';
+    } else {
+      const groups = [
+        { key: 'priority_1', label: '🔴 Priority 1 — Critical', cls: 'p1' },
+        { key: 'priority_2', label: '🟡 Priority 2',            cls: 'p2' },
+        { key: 'priority_3', label: '🔵 Priority 3',            cls: 'p3' }
+      ];
+      let globalNum = 1;
+      groups.forEach(grp => {
+        const issues = pi[grp.key] || [];
+        if (!issues.length) return;
+        const grpDiv = document.createElement('div');
+        grpDiv.className = 'wp-priority-group';
+        grpDiv.innerHTML = `<div class="wp-priority-label ${grp.cls}">${grp.label}</div>`;
+        issues.forEach(issue => {
+          const detailsHtml = (issue.details || []).map(d => `<li>${d}</li>`).join('');
+          grpDiv.innerHTML += `
+            <div class="wp-issue-card ${grp.cls}">
+              <div class="wp-issue-num">${globalNum++}</div>
+              <div class="wp-issue-body">
+                <div class="wp-issue-title">${issue.title}</div>
+                <ul class="wp-issue-details">${detailsHtml}</ul>
+              </div>
+            </div>
+          `;
+        });
+        elIssues.appendChild(grpDiv);
+      });
+    }
+  }
+
+  // --- Councillor Performance ---
+  const elPerfGrid = document.getElementById('wp-perf-grid');
+  if (elPerfGrid) {
+    elPerfGrid.innerHTML = '';
+    const cp = data.councillor_performance || null;
+    if (!cp) {
+      elPerfGrid.innerHTML = '<p style="color:var(--text-secondary)">No performance data available.</p>';
+    } else {
+      const posItems = (cp.positives || []).map(t => `
+        <div class="wp-perf-item">
+          <span class="wp-perf-dot">✓</span>
+          <span>${t}</span>
+        </div>`).join('');
+      const negItems = (cp.negatives || []).map(t => `
+        <div class="wp-perf-item">
+          <span class="wp-perf-dot">✗</span>
+          <span>${t}</span>
+        </div>`).join('');
+      elPerfGrid.innerHTML = `
+        <div class="wp-perf-col positive">
+          <div class="wp-perf-col-title">✅ Positive Points</div>
+          <div class="wp-perf-items">${posItems}</div>
+        </div>
+        <div class="wp-perf-col negative">
+          <div class="wp-perf-col-title">⚠️ Negative Points — Incumbent Weaknesses</div>
+          <div class="wp-perf-items">${negItems}</div>
+        </div>
+      `;
+    }
+  }
+
+  // --- Campaign Opportunities ---
+  const elCampaign = document.getElementById('wp-campaign-grid');
+  if (elCampaign) {
+    elCampaign.innerHTML = '';
+    const ops = data.campaign_opportunities || [];
+    if (!ops.length) {
+      elCampaign.innerHTML = '<p style="color:var(--text-secondary)">No campaign data available.</p>';
+    } else {
+      ops.forEach(op => {
+        elCampaign.innerHTML += `<div class="wp-campaign-chip">${op}</div>`;
+      });
+    }
+  }
+
+  // --- Voter Sentiment body ---
+  const elSentBody = document.getElementById('wp-sentiment-body');
+  if (elSentBody) {
+    elSentBody.innerHTML = '';
+    if (!vs) {
+      elSentBody.innerHTML = '<p style="color:var(--text-secondary)">No sentiment data available.</p>';
+    } else {
+      const sentimentCls = vs.current_sentiment === 'Positive' ? 'good' : vs.current_sentiment === 'Negative' ? 'bad' : '';
+      const strengthsHtml = (vs.incumbent_strengths || []).map(s =>
+        `<div class="wp-list-item good"><span class="wp-list-icon">✓</span>${s}</div>`
+      ).join('');
+      const dissatHtml = (vs.public_dissatisfaction || []).map(s =>
+        `<div class="wp-list-item bad"><span class="wp-list-icon">✗</span>${s}</div>`
+      ).join('');
+      elSentBody.innerHTML = `
+        <div class="wp-sentiment-current">${vs.current_sentiment || 'Mixed'}</div>
+        <div class="wp-list-block">
+          <span class="wp-list-block-title">Incumbent Strengths</span>
+          ${strengthsHtml}
+        </div>
+        <div class="wp-list-block">
+          <span class="wp-list-block-title">Public Dissatisfaction Points</span>
+          ${dissatHtml}
+        </div>
+      `;
+    }
+  }
+
+  // --- Election Strategy ---
+  const elStratBody = document.getElementById('wp-strategy-body');
+  if (elStratBody) {
+    elStratBody.innerHTML = '';
+    const es = data.election_strategy || null;
+    if (!es) {
+      elStratBody.innerHTML = '<p style="color:var(--text-secondary)">No strategy data available.</p>';
+    } else {
+      const focusChips = (es.focus_areas || []).map(f =>
+        `<span class="wp-focus-chip">${f}</span>`
+      ).join('');
+      const swingChips = (es.swing_issues || []).map(s =>
+        `<span class="wp-swing-chip">${s}</span>`
+      ).join('');
+      elStratBody.innerHTML = `
+        <span class="wp-strategy-lbl">Focus Areas</span>
+        <div class="wp-strategy-chips">${focusChips}</div>
+        <span class="wp-strategy-lbl" style="margin-top:12px">Potential Swing Issues</span>
+        <div class="wp-strategy-chips">${swingChips}</div>
+      `;
+    }
+  }
 }

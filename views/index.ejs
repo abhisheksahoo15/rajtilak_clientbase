@@ -140,6 +140,11 @@
                 <option value="bastar">Bastar</option>
                 <option value="dhamtari">Dhamtari</option>
                 <option value="mahasamund">Mahasamund</option>
+                <option value="koriya">Koriya</option>
+                <option value="surajpur">Surajpur</option>
+                <option value="bemetara">Bemetara</option>
+                <option value="bijapur">Bijapur</option>
+                <option value="sukma">Sukma</option>
               </select>
             </div>
             <div class="field-wrap">
@@ -157,6 +162,7 @@
             <div class="field-wrap">
               <label for="keywordSelect">Analysis Keyword</label>
               <select id="keywordSelect" name="keyword">
+                <option value="wardprofile">⚡ Ward Profile (Flagship Report)</option>
                 <option value="full">Full Intelligence Report</option>
                 <option value="political">Political Strategy</option>
                 <option value="voter">Voter Analysis</option>
@@ -251,6 +257,7 @@
         <button class="ktab" data-tab="complaint" role="tab">Complaints</button>
         <button class="ktab" data-tab="economic" role="tab">Economic</button>
         <button class="ktab" data-tab="risk" role="tab">Risk</button>
+        <button class="ktab ktab-profile" data-tab="wardprofile" role="tab">⚡ Ward Profile</button>
       </div>
 
       <!-- TAB PANELS -->
@@ -463,6 +470,61 @@
           <div class="risk-grid" id="riskGrid"></div>
           <div class="section-title mt-lg">Strategic Vulnerabilities</div>
           <div class="vuln-list" id="vulnList"></div>
+        </div>
+
+        <!-- WARD PROFILE TAB -->
+        <div class="tab-panel hidden" id="tab-wardprofile" role="tabpanel">
+
+          <!-- Identity Banner -->
+          <div class="wp-identity-banner" id="wp-banner">
+            <div class="wp-id-left">
+              <div class="wp-ward-badge">WARD <span id="wp-ward-num">47</span></div>
+              <div class="wp-councillor-name" id="wp-cname">Bhupendra Yadav</div>
+              <div class="wp-party-tag" id="wp-party">Indian National Congress (INC)</div>
+            </div>
+            <div class="wp-id-right">
+              <div class="wp-sentiment-pill" id="wp-sentiment-pill">— Voter Sentiment —</div>
+              <div class="wp-voter-split" id="wp-voter-split"></div>
+            </div>
+          </div>
+
+          <!-- Voter Demographics -->
+          <div class="wp-section">
+            <div class="wp-section-header">👥 Voter Demographics</div>
+            <div class="wp-demo-grid" id="wp-demo-grid"></div>
+            <div class="wp-strategic-note" id="wp-strategic-note"></div>
+          </div>
+
+          <!-- Public Issues Priority Grid -->
+          <div class="wp-section">
+            <div class="wp-section-header">🔥 Major Public Issues — Priority Wise</div>
+            <div class="wp-issues-wrap" id="wp-issues-wrap"></div>
+          </div>
+
+          <!-- Councillor Performance -->
+          <div class="wp-section">
+            <div class="wp-section-header">📊 Councillor Performance Analysis</div>
+            <div class="wp-perf-grid" id="wp-perf-grid"></div>
+          </div>
+
+          <!-- Campaign Opportunities -->
+          <div class="wp-section">
+            <div class="wp-section-header">🎯 Campaign Opportunities — High Impact Promises</div>
+            <div class="wp-campaign-grid" id="wp-campaign-grid"></div>
+          </div>
+
+          <!-- Voter Sentiment + Election Strategy -->
+          <div class="wp-two-col">
+            <div class="wp-section">
+              <div class="wp-section-header">📡 Voter Sentiment</div>
+              <div id="wp-sentiment-body"></div>
+            </div>
+            <div class="wp-section">
+              <div class="wp-section-header">🗳️ Election Strategy Insight</div>
+              <div id="wp-strategy-body"></div>
+            </div>
+          </div>
+
         </div>
 
       </div><!-- /tab-panels -->

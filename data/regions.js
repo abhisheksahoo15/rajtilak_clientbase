@@ -424,7 +424,187 @@ const regionsData = {
                       { title: "Relocate Liquor Outlets", desc: "Move commercial abkari outlets out of residential boundaries and away from schools.", impact: "High" },
                       { title: "Smart Street CCTV Integration", desc: "Install 24 street cameras around Radhakrishna Mandir chowk to enhance female safety.", impact: "High" },
                       { title: "Decentralized Sanitation Center", desc: "Create a local waste segregation hub in Sector 11 for faster street clearance.", impact: "Medium" }
-                    ]
+                    ],
+
+                    // 26. Voter Demographics (Ground Truth — Field Survey)
+                    voter_demographics: {
+                      male_pct: 58,
+                      female_pct: 42,
+                      strategic_note: "Women voters can become a decisive swing segment if campaigns focus on safety, parks, public amenities, sanitation, and family welfare."
+                    },
+
+                    // 27. Public Issues — Priority Wise (Field Survey)
+                    public_issues: {
+                      priority_1: [
+                        {
+                          title: "Waterlogging During Rainy Season",
+                          details: [
+                            "Severe drainage issue.",
+                            "Sewer water enters residential houses during heavy rainfall.",
+                            "Long-term unresolved issue."
+                          ]
+                        },
+                        {
+                          title: "Drain (Nali) Problems",
+                          details: [
+                            "Blocked and damaged drains.",
+                            "Poor drainage management."
+                          ]
+                        },
+                        {
+                          title: "Public Waiting Area (Yatri Pratikshalaya)",
+                          details: [
+                            "Poor maintenance.",
+                            "Gutka stains.",
+                            "Public urination.",
+                            "Strong demand for nearby public toilet installation."
+                          ]
+                        },
+                        {
+                          title: "Stadium Condition",
+                          details: [
+                            "Stadium is in dilapidated condition.",
+                            "Issue unresolved for nearly 10 years.",
+                            "Illegal liquor consumption reported inside the stadium.",
+                            "Requires complete renovation and security improvements."
+                          ]
+                        }
+                      ],
+                      priority_2: [
+                        {
+                          title: "Garbage and Scrap Waste",
+                          details: [
+                            "Scrap accumulation.",
+                            "Poor waste collection.",
+                            "Cleanliness complaints."
+                          ]
+                        },
+                        {
+                          title: "Water Supply Wastage",
+                          details: [
+                            "Municipal water reaches residents.",
+                            "High water leakage and wastage.",
+                            "Demand for proper maintenance."
+                          ]
+                        },
+                        {
+                          title: "Public Tap Installation",
+                          details: [
+                            "High public demand.",
+                            "Required in water-deficient localities."
+                          ]
+                        },
+                        {
+                          title: "Street Light Issues",
+                          details: [
+                            "Non-functional or insufficient lighting.",
+                            "Safety concern during night."
+                          ]
+                        },
+                        {
+                          title: "Speed Breakers",
+                          details: [
+                            "Required near schools, residential roads and accident-prone locations."
+                          ]
+                        }
+                      ],
+                      priority_3: [
+                        {
+                          title: "Women's Safety",
+                          details: [
+                            "Important election issue.",
+                            "Increase street lighting.",
+                            "CCTV installation.",
+                            "Police patrolling.",
+                            "Safe public spaces."
+                          ]
+                        },
+                        {
+                          title: "Parks and Recreational Spaces",
+                          details: [
+                            "Demand for public parks.",
+                            "Children's play areas.",
+                            "Women's walking areas.",
+                            "Family recreation spaces."
+                          ]
+                        }
+                      ]
+                    },
+
+                    // 28. Councillor Performance Analysis (Ground Truth)
+                    councillor_performance: {
+                      positives: [
+                        "Good emotional connection with residents.",
+                        "Polite and approachable behaviour.",
+                        "Municipal administration responds when issues are raised.",
+                        "Road maintenance completed in several locations.",
+                        "Water supply generally satisfactory.",
+                        "Roof leakage repairs completed in some areas."
+                      ],
+                      negatives: [
+                        "No major visible development projects recently.",
+                        "Stadium issue unresolved for approximately 10 years.",
+                        "Waterlogging remains unresolved.",
+                        "Drainage infrastructure inadequate.",
+                        "Public sanitation issues continue.",
+                        "Lack of new public infrastructure."
+                      ]
+                    },
+
+                    // 29. Campaign Opportunities — High Impact Promises
+                    campaign_opportunities: [
+                      "Permanent solution for waterlogging.",
+                      "Modern drainage system.",
+                      "Stadium redevelopment.",
+                      "Public toilet near Yatri Pratikshalaya.",
+                      "Women's safety initiative.",
+                      "New public parks.",
+                      "Children's play area.",
+                      "Street light modernization.",
+                      "Public tap installation.",
+                      "Scientific garbage management.",
+                      "Water leakage reduction.",
+                      "Speed breaker installation.",
+                      "Smart ward cleanliness campaign."
+                    ],
+
+                    // 30. Voter Sentiment (Ground Truth — Field Survey)
+                    voter_sentiment: {
+                      current_sentiment: "Mixed",
+                      incumbent_strengths: [
+                        "Personal relationship with citizens.",
+                        "Good behaviour.",
+                        "Basic civic services functioning."
+                      ],
+                      public_dissatisfaction: [
+                        "Lack of recent development.",
+                        "Long-pending infrastructure problems.",
+                        "Waterlogging.",
+                        "Stadium neglect.",
+                        "Sanitation concerns."
+                      ]
+                    },
+
+                    // 31. Election Strategy Insight
+                    election_strategy: {
+                      focus_areas: [
+                        "Women-centric development.",
+                        "Civic infrastructure.",
+                        "Cleanliness.",
+                        "Public safety.",
+                        "Drainage.",
+                        "Sports infrastructure.",
+                        "Quality-of-life improvements."
+                      ],
+                      swing_issues: [
+                        "Women's safety.",
+                        "Parks.",
+                        "Public toilets.",
+                        "Stadium renovation.",
+                        "Rainwater drainage.",
+                        "Garbage management."
+                      ]
+                    }
                   }
                 },
                 {
