@@ -341,7 +341,7 @@ function renderProfileTab(data) {
   profWrap.innerHTML = `
     <div class="prof-left">
       <div class="prof-img-wrap">
-        <div class="prof-img-placeholder">👤</div>
+        <img src="${data.basic_profile.photo || '/images/logo.png'}" alt="${data.basic_profile.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" onerror="this.src='/images/logo.png'">
       </div>
       <div class="prof-socials">
         ${socialLinks}
